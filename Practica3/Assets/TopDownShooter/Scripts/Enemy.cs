@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using static UnityEngine.GraphicsBuffer;
@@ -11,11 +11,11 @@ public class Enemy : MonoBehaviour
 
     public Transform target;
     public float speed;
-    [SerializeField] Animator anim;
+   
 
     private void Start()
     {
-        anim.SetBool("IsMoving", true);
+        
     }
     private void Update()
     {
